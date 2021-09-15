@@ -4,3 +4,22 @@ body {
     background-color: ivory;
     font-family: verdana;
 }
+h1 {
+  white-space: nowrap;
+  width: 250px;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+h2 {
+  white-space: nowrap;
+  width: 300px;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+h3 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
